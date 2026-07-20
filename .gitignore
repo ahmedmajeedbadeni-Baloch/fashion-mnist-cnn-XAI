@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (large binaries - regenerate by running the notebook)
+models/
+*.h5
+*.keras
+
+# OS
+.DS_Store
+
+# Data cache (keras downloads Fashion-MNIST here on first run)
+*.npz
